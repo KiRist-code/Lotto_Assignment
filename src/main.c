@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h> // malloc from "stdlib.h" header
-#include"Game/game.h"
-#include"Algorism/algorism.h"
+#include"game.h"
+#include"algorism.h"
 
 void input(int index, int** input_list, int* extra, int loop); //return extra number;
 
@@ -74,7 +74,7 @@ void input(int index, int** input_list, int* extra, int loop){
 
     //check all number in array "isSame" || check extra number is same with input nubmers array
     if(isSame(input_list[idx]) ||  isExtraSame(input_list[idx], extra)) { 
-        printf("Do not input the same number");
+        printf("Do not input the same numbe\n");
         input(idx, input_list, extra, loop); //run function again
     }
 

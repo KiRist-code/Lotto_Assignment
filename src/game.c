@@ -1,5 +1,5 @@
 #include"game.h"
-#include"Algorism/algorism.h"
+#include"algorism.h"
 #include<stdlib.h>
 
 struct Lotto_struct *newGame(){

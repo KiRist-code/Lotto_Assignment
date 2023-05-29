@@ -1,4 +1,4 @@
-#include"algorism.h"
+#include "algorism.h"
 
 int isSame(int* list){
     for(int i=0;i<6;i++){ //check some input number is same
