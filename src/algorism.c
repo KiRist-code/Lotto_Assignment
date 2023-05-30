@@ -2,7 +2,7 @@
 
 int isSame(int* list){
     for(int i=0;i<6;i++){ //check some input number is same
-        for(int j=0;j<6;j++){
+        for(int j=i+1;j<6;j++){
             if(list[i] == list[j]) { 
                 return 1;
             }
