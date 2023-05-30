@@ -2,6 +2,8 @@
 
 ## Build
 
+This build command is based on Linux/Unix.
+
 ```bash
 cmake -D CC=/usr/local/bin/gcc-13 -D CXX=/usr/local/bin/g++-13 . -B buildcmake -D CMAKE_C_COMPILER=/usr/local/bin/gcc-13 -D CMAKE_CXX_COMPILER=/usr/local/bin/g++-13 . -B build
 
@@ -10,8 +12,14 @@ cd build
 make
 ```
 
-## TODO
+## Run
 
-TIME 변수가 너무 짧아 똑같은 난수가 생성된다. -> 해결해야할 문제
+```bash
+cd buld/Debug
+sudo chmod +x Lotto-1.0.out
+./Lotto-1.0.out
+```
 
-[Picture](https://discord.com/channels/991693323645497415/1034814036631625869/1112722475147599902)
+## Github
+
+[Github](https://github.com/KiRist-code/Lotto_Assignment)

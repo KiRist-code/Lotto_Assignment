@@ -14,5 +14,5 @@ struct Lotto_struct{
 };
 
 struct Lotto_struct *newGame();
-int* compareNumber(int* numbers, int extra, Lotto_struct* lotto);
+int compareNumber(int* numbers, int extra, Lotto_struct* lotto);
 void freeAllGame(Lotto_struct** lotto_ptr, int index);

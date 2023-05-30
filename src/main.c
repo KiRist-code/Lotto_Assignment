@@ -73,7 +73,6 @@ int main(void) {
     for (int i = 0; i < index; i++) {
         free(input_num[i]);
     }
-    // free(input_num);
     free(input_extra);
 
     return 0;
@@ -85,7 +84,7 @@ void input(int start, int end, int** input_list, int* extra) {
 
     //check all number in array "isSame" || check extra number is same with input nubmers array
     if (isSame(input_list[start]) || isExtraSame(input_list[start], extra)) {
-        printf("Do not input the same numbe\n");
+        printf("Do not input the same number\n");
         input(start, end, input_list, extra); //run function again
     }
 

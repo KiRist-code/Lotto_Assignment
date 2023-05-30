@@ -20,7 +20,7 @@ struct Lotto_struct* newGame(struct Lotto_struct* lotto) {
     return lotto;
 }
 
-int* compareNumber(int* numbers, int extra, Lotto_struct* lotto) {
+int compareNumber(int* numbers, int extra, Lotto_struct* lotto) {
     int count = 0;
     for (int i = 0; i < 6; i++) {
         if (numbers[i] == lotto->number[i]) { //check user input is same with lotto number

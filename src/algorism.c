@@ -31,7 +31,6 @@ int* bubble_sort(int len, int* arr) {
         for (int j = 0; j < len; j++) {
             if (arr[j] > arr[j+1]) {
                 swap(&arr[j], &arr[j + 1]);
-                // 교수가 착하다 -> 이런 과제를 내준 교수가 만악의 근원
             }
         }
     }
